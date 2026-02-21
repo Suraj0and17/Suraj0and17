@@ -1,0 +1,5 @@
+{
+  "name": "Kisan Agromart",
+  "description": "Premium platform for selling genuine fertilizers directly from companies like IFFCO, KRIBHCO, and RCF to farmers across India at fixed MRP.",
+  "requestFramePermissions": ["geolocation"]
+}

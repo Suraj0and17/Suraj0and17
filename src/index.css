@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  body {
+    @apply text-stone-900 antialiased;
+  }
+}
+
+.selection\:bg-green-100::selection {
+  background-color: #dcfce7;
+}
+
+.selection\:text-green-900::selection {
+  color: #14532d;
+}
